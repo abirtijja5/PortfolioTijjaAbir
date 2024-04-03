@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Tijja_Abir/static/css/main.aa935824.css",
+    "main.js": "/Portfolio_Tijja_Abir/static/js/main.6e8ea785.js",
+    "static/media/TijjaImg.jpeg": "/Portfolio_Tijja_Abir/static/media/TijjaImg.d5df491f4c5e6103702f.jpeg",
+    "index.html": "/Portfolio_Tijja_Abir/index.html",
+    "main.aa935824.css.map": "/Portfolio_Tijja_Abir/static/css/main.aa935824.css.map",
+    "main.6e8ea785.js.map": "/Portfolio_Tijja_Abir/static/js/main.6e8ea785.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa935824.css",
+    "static/js/main.6e8ea785.js"
+  ]
+}
