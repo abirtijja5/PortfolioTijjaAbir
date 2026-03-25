@@ -1,5 +1,5 @@
 {
-    "homepage": "https://abirtijja5.github.io/PortfolioTijjaAbir/",
+    "homepage": "https://abirtijja5.github.io/Portfolio-Website/",
     "name": "tijja-abir-portfolio",
     "version": "0.1.0",
     "private": true,
@@ -29,7 +29,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
