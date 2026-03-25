@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PortfolioTijjaAbir/static/css/main.aa935824.css",
-    "main.js": "/PortfolioTijjaAbir/static/js/main.497db690.js",
-    "static/media/TijjaImg.jpeg": "/PortfolioTijjaAbir/static/media/TijjaImg.d5df491f4c5e6103702f.jpeg",
+    "main.js": "/PortfolioTijjaAbir/static/js/main.6891739c.js",
+    "static/media/TijjaImg.png": "/PortfolioTijjaAbir/static/media/TijjaImg.0dc10f87ee1475f5d290.png",
     "index.html": "/PortfolioTijjaAbir/index.html",
     "main.aa935824.css.map": "/PortfolioTijjaAbir/static/css/main.aa935824.css.map",
-    "main.497db690.js.map": "/PortfolioTijjaAbir/static/js/main.497db690.js.map"
+    "main.6891739c.js.map": "/PortfolioTijjaAbir/static/js/main.6891739c.js.map"
   },
   "entrypoints": [
     "static/css/main.aa935824.css",
-    "static/js/main.497db690.js"
+    "static/js/main.6891739c.js"
   ]
 }
