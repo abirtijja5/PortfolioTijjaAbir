@@ -2,15 +2,17 @@ export const Bio = {
   name: "TIJJA Abir",
   roles: [
     "Full Stack Developer",
+    "Front-End Developer",
+    "Ember.js Specialist",
     "Web developer",
     "UI/UX Designer",
     "Programmer",
   ],
   description:
-    "I am a motivated and adaptable individual, constantly seeking out new challenges. Fueled by a passion for learning, I am committed to producing top-notch results. Possessing a positive outlook and embracing a growth mindset, I am poised to make a significant impact and accomplish remarkable feats.",
+    "Alternante Front-End spécialisée en Ember.js, actuellement en double Master (Expert Informatique & Computer Science for Aerospace). Je cherche un poste Full-Stack où allier rigueur technique et créativité. I am motivated, adaptable, and constantly seeking out new challenges — committed to producing top-notch results with a growth mindset.",
   github: "https://github.com/abirtijja5",
   resume:
-    "https://drive.google.com/file/d/1QpG0QkYvOVRML6gYR7EwdSBTWgbDyc50/view?usp=sharing",
+    "https://drive.google.com/file/d/1uTFOt5cBD2pD2nj2o7Ogos7okWmGGCuy/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/abir-tj-344680238/",
   insta: "https://www.instagram.com/tijja_abir/?next=%2F",
   facebook: "https://www.facebook.com/profile.php?id=100073383991278",
@@ -63,6 +65,16 @@ export const skills = [
         name: "Flutter",
         image:
           "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      },
+      {
+        name: "Ember.js",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/ember/ember-original-wordmark.svg",
+      },
+      {
+        name: "React Native",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
     ],
   },
@@ -160,6 +172,16 @@ export const skills = [
         image:
           "https://brandlogos.net/wp-content/uploads/2022/05/figma-logo_brandlogos.net_6n1pb.png",
       },
+      {
+        name: "Ruby",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg",
+      },
+      {
+        name: "Swift",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg",
+      },
     ],
   },
 ];
@@ -167,6 +189,32 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://www.shippingbo.com/content/themes/sbo-theme/build/images/logo_shippingbo-header.svg",
+    role: "Développeuse Front-End",
+    company: "Shippingbo",
+    date: "September 2024 - September 2026",
+    desc: "Création et développement de composants réutilisables avec Ember.js, contribuant à la maintenance et l'évolution de Shippingbo, solution SaaS logistique utilisée par des e-commerçants à l'échelle internationale. Rôle clé dans l'initialisation de Smart Procurement : architecture front-end, choix techniques et premières fonctionnalités.",
+    skills: [
+      "Ember.js",
+      "Ruby on Rails",
+      "Docker",
+    ],
+  },
+  {
+    id: 1,
+    img: "https://www.inrap.fr/sites/inrap.fr/files/styles/article/public/thumbnails/image/logo_universite_toulouse_iii_paul_sabatier.jpg?itok=86ESKfXz",
+    role: "Stagiaire de recherche en cybersécurité",
+    company: "Université Paul Sabatier",
+    date: "May 2024 - August 2024",
+    desc: "Conception et développement d'une application mobile interactive Protect-Me! en utilisant React Native. Recherche et identification de divers types de cyberattaques. Développement de modules éducatifs interactifs sur la cybersécurité. Création et amélioration de l'interface utilisateur et intégration de niveaux de compréhension adaptés aux utilisateurs.",
+    skills: [
+      "React Native",
+      "Cybersécurité",
+      "FIGMA",
+    ],
+  },
+  {
+    id: 2,
     img: "https://emploi.digitalexpo.fr/uploads/Stand/15/NEXTEAM-Logo-long-63809c82e51d2.jpg",
     role: "Web Developer - Python / Django (M/F)",
     company: "Nexteam Services - NEXTEAM Group.",
@@ -235,11 +283,20 @@ export const experiences = [
 export const education = [
   {
     id: 0,
+    img: "https://images.seeklogo.com/logo-png/4/1/epsi-logo-png_seeklogo-48420.png",
+    school: "Master parcours Expert informatique et SI",
+    date: "2024 - 2026",
+    grade: "",
+    desc: "Master spécialisé en expertise informatique et systèmes d'information, en alternance chez Shippingbo en tant que Développeuse Front-End spécialisée Ember.js.",
+    degree: "EPSI, Toulouse (France)",
+  },
+  {
+    id: 1,
     img: "https://www.inrap.fr/sites/inrap.fr/files/styles/article/public/thumbnails/image/logo_universite_toulouse_iii_paul_sabatier.jpg?itok=86ESKfXz",
     school: "Master's degree in Computer science for aerospace (CSA)",
     date: "2023 - 2025",
     grade: "",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "Master parcours Computer Science for Aerospace (CSA) à l'Université Paul Sabatier. Formation orientée développement logiciel et systèmes embarqués appliqués au domaine aérospatial.",
     degree: "Université Toulouse III - Paul Sabatier",
   },
   {
@@ -248,7 +305,7 @@ export const education = [
     school: "Bachelor's degree in Professional Web and Mobile Application Design and Development.",
     date: "2022 - 2023",
     grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+    desc: "Licence Professionnelle spécialisée en Design et Réalisation des Applications Web et Mobile. Formation aux technologies React, PHP, JavaScript, et aux méthodes de conception UX/UI.",
     degree: "IUT  Toulouse III - Paul Sabatier",
   },
   {
@@ -257,8 +314,8 @@ export const education = [
     school: "DUT in Computer Engineering",
     date: " 2020 -  2022",
     grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ECOLE SUPÉRIEURE DE TECHNOLOGIE",
+    desc: "DUT Génie Informatique. Formation aux bases du développement logiciel, réseaux, algorithmique et programmation Java/C.",
+    degree: "ECOLE SUPÉRIEURE DE TECHNOLOGIE - Laayoune (Maroc)",
   },
 ];
 
